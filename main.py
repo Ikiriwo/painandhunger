@@ -1,6 +1,10 @@
-# Versão 1.2 - Melhorando as mensagens
+# Nova funcionalidade: Contador de visitas
+visitas = 0
+
 def saudacao():
-    print("Olá, mundo! Bem-vindo ao meu software.")
+    global visitas
+    visitas += 1
+    print(f"Olá, mundo! Bem-vindo ao meu software. Você é o visitante número {visitas}.")
 
 def despedida():
     print("Tchau, mundo! Volte sempre.")
