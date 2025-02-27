@@ -1,6 +1,6 @@
-# Versão 1.1 - Adicionando despedida
+# Versão 1.2 - Melhorando as mensagens
 def saudacao():
-    print("Olá, mundo!")
+    print("Olá, mundo! Bem-vindo ao meu software.")
 
 def despedida():
-    print("Tchau, mundo!")
+    print("Tchau, mundo! Volte sempre.")
